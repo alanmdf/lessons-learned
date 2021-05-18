@@ -14,8 +14,16 @@ body {
   height: 200px;
 }
 
-#tabela, th, td {
+#tabela , th , td {
   border: 1px solid black;
   padding: 5px;
   border-collapse: collapse;
 }
+
+#licoes_aprendidas {
+  font-size: 1.1em;
+  color: blue;
+  line-height: 1.1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+\n
