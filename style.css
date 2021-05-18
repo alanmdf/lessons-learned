@@ -5,6 +5,26 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  background-color: #036b52;
+  color: white;
+  display: inline-block;
+  width: 100%;
+  border: 1px solid black;
+}
+
+nav {
+  margin-top: 75px;
+  background-color: #2fc18c;
+  color: white;
+  display: inline-block;
+  width: 100%;
+  margin-left: 0%;
+  padding: 1px;
+  border: 1px solid black;
+}
+
+#titulo {
+  padding: 0px;
 }
 
 #minha_foto {
@@ -12,6 +32,9 @@ body {
   margin-top: 60px;
   width: 200px;
   height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 #tabela , th , td {
@@ -25,5 +48,58 @@ body {
   color: blue;
   line-height: 1.1em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
 }
-\n
+
+.lado-esquerdo-lista {
+  display: inline-block;
+  width: 300px;
+  text-align:justify;
+  margin-right: 50px;
+  margin-left: 300px;
+}
+
+.lado-direito-lista {
+  display: inline-block;
+  width: 300px;
+  vertical-align: 20px;
+  text-align:justify;
+}
+
+.listas {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 300px;
+  margin-left: 150px;
+  text-align:justify;
+  margin-bottom: 20px;
+  margin-right: auto;
+  position: relative;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 300px;
+  text-align:justify;
+  position: relative;
+  margin-left: 100px;
+  vertical-align: 50px;
+}
+
+.lado-direito h2 {
+  padding: 0px;
+  margin-top: 0px;
+}
+
+#tabela {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  text-align: center;
+}
