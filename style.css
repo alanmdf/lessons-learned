@@ -73,17 +73,16 @@ nav {
   margin-left: 150px;
   text-align: justify;
   margin-bottom: 20px;
-  margin-right: auto;
   position: relative;
 }
 
 .lado-direito {
-  display: inline-block;
   width: 300px;
   text-align: justify;
-  position: relative;
-  margin-left: 100px;
+  margin-left: 10px;
   vertical-align: 50px;
+  float: right;
+  margin-right: 21%;
 }
 
 #tabela {
